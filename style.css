@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffffff;
+    width: 1540px;
+    margin: 0 auto;
+    padding-top: 42px;
+    padding-left: 184px;
+    padding-right: 184px;
+
+}
+
+header{
+
+}
+.logo{
+    float:left;
+    margin-right: 90px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.fullscreen-bg{
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top:45%;
+}
+
+.fullscreen-bg-video{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.overlay{
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+
+nav {
+    padding-top: 20px;
+}
+
+.navigation{
+    float: left;
+}
+.navigation li{
+    list-style-type: none;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+}
+.navigation li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 28px;
+    text-decoration: none;
+    color: #f8f8f8;
+
+}
+.navigation li a:hover{
+    color:  #ff5912;
+    transform: scaleX(1.0001);
+}
+.navigation li a.active{
+    color:  #ff5912;
+    transform: scaleX(1.0001);
+}
+header .icons{
+    float: right;
+}
+header .icons li{
+    list-style-type: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 34px;
+}
+header .icons li:last-child{
+    margin-right: 0;
+}
+header .icons a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+}
+header .icons a:hover{
+    outline: 1px solid #ff5912;
+}
+.clearfix{
+    clear: both;
+}
+
+
+main{
+    padding-top: 104px;
+}
+
+.product{
+    height: 650px;
+}
+.main-image{
+    text-align: center;
+}
+.product h1{
+    font-size: 52px;
+    color: #ff5912;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.product .subtitle{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(60,71,81);
+    margin-bottom: 37px;
+}
+.product .description{
+    color:  #495662;
+    width: 600px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 83px;
+}
+
+.size, .quantity{
+    color:  #34404b;
+    font-size: 18px;
+    float: left;
+
+}
+
+.size-options {
+    float: left;
+    margin-right: 70px;
+}
+
+.size-options li{
+    list-style-type: none;
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+}
+.size-options a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 27px;
+    text-decoration: none;
+    color:  #34404b;
+}
+.size-options li a:hover{
+    color:  #ff5912;
+}
+
+.quantity, .quantity-value{
+    float: left;
+}
+.quantity-value li{
+    list-style-type: none;
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    text-align: center;
+    color:  #ff5912;
+    font-size: 18px;
+}
+.quantity-value a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: 27px;
+    text-decoration: none;
+    color:  #34404b;
+}
+.quantity-value li a:hover{
+    color:  #ff5912;
+}
+
+
+.related{
+    background: rgb(244, 246, 248);
+    height: 750px;
+    padding-top: 118px;
+    padding-left: 184px;
+    padding-right: 184px;
+}
+.related-products{
+    margin-bottom: 82px;
+}
+.related-products h2{
+    color:  #ff5912;
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.related-products p{
+    color:  #495662;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+.images-products {
+    text-align: center;
+}
+.images-products a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.images-products a:hover{
+    opacity: 0.2;
+}
+.option-product{
+    background-image: url("img/Bg.jpg");
+    width: 200px;
+    height: 260px;
+    margin-right: 5px;
+    padding-top: 30px;
+    /*padding-bottom: 87px;*/
+
+}
+
+footer{
+    height: 250px;
+    padding-top: 91px;
+    padding-left: 185px;
+    padding-right: 117px;
+}
+.logo-footer{
+    float: left;
+    margin-right: 297px;
+}
+.menu-footer{
+    column-count: 2;
+}
+.menu-footer li{
+    list-style-type: none;
+}
+.menu-footer a{
+    text-decoration: none;
+    color:  #34404b;
+}
+.menu-footer li a:hover{
+    color:  #ff5912;
+}
+
+
